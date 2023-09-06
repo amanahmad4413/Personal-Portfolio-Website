@@ -293,7 +293,7 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(1, 56, 47, 0.685), var(--main-color));
+  background: linear-gradient(rgba(0, 0, 0, 0.7), var(--main-color));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,7 +313,7 @@ span {
 }
 
 .portfolio-layer p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 500;
   margin: 0.3rem 0 1rem;
 }
@@ -322,15 +322,15 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 2rem;
-  height: 2rem;
-  background: var(--text-color);
+  width: 3rem;
+  height: 3rem;
+  background: var(--bg-color);
   border-radius: 50%;
 }
 
 .portfolio-layer a i {
   font-size: 1.5rem;
-  color: var(--second-bg-color);
+  color: var(--text-color);
 }
 
 /* Contact Section */
