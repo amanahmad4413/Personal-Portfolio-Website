@@ -70,19 +70,39 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
 
-// SMTP js FOr Contact Form
+// SMTP js For Contact Form
 
 
 function sendEmail() {
-    Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "amanahmad02001@gmail.com",
-        Password : "35B56005A2D29CC67A61649F57BD2B219098",
-        To : 'amanahmad02001@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "This is the subject",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-};
+Email.send({
+    Host: "smtpout.secureserver.net",
+    Username: "aman.ahmad@techconfer.in",
+    Password: "Techconfer@123",
+    To: 'amanahmad02001@gmail.com',
+    From: document.getElementById("email").value,
+    Subject: "Offical Mail For Uselesscoin",
+    Body: "Checking is the body"
+})
+.then(function (message) {
+  alert("mail sent successfully")
+});
+}
+
+
+
+
+
+
+// function sendEmail() {
+//     Email.send({
+//         Host : "smtp.elasticemail.com",
+//         Username : "amanahmad02001@gmail.com",
+//         Password : "35B56005A2D29CC67A61649F57BD2B219098",
+//         To : 'amanahmad02001@gmail.com',
+//         From : document.getElementById("email").value,
+//         Subject : "This is the subject",
+//         Body : "And this is the body"
+//     }).then(
+//       message => alert(message)
+//     );
+// };
